@@ -11,7 +11,7 @@ const Header = () => {
     signed = (
       <>
         <h4>Welcome { data.user}</h4>
-        <Link to="/login"
+        <Link to="/"
           className="links"
           onClick={() => {
             setWelcome(false);
