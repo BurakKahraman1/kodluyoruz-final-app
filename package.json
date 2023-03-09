@@ -1,5 +1,5 @@
 {
-  "homepage":"http://burakkahraman1652.github.io/kodluyoruz-final-app",
+  "homepage": "http://burakkahraman1652.github.io/kodluyoruz-final-app",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -18,8 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
