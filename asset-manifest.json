@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kodluyoruz-final-app/static/css/main.e392d1b8.css",
-    "main.js": "/kodluyoruz-final-app/static/js/main.ff93b354.js",
+    "main.css": "/kodluyoruz-final-app/static/css/main.709dedc4.css",
+    "main.js": "/kodluyoruz-final-app/static/js/main.2779be56.js",
     "index.html": "/kodluyoruz-final-app/index.html",
-    "main.e392d1b8.css.map": "/kodluyoruz-final-app/static/css/main.e392d1b8.css.map",
-    "main.ff93b354.js.map": "/kodluyoruz-final-app/static/js/main.ff93b354.js.map"
+    "main.709dedc4.css.map": "/kodluyoruz-final-app/static/css/main.709dedc4.css.map",
+    "main.2779be56.js.map": "/kodluyoruz-final-app/static/js/main.2779be56.js.map"
   },
   "entrypoints": [
-    "static/css/main.e392d1b8.css",
-    "static/js/main.ff93b354.js"
+    "static/css/main.709dedc4.css",
+    "static/js/main.2779be56.js"
   ]
 }
