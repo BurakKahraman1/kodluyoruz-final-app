@@ -47,17 +47,17 @@ const DetailWeather=()=>{
               
               <div className="contain">
                 <div className="leftCont">
-                   <p className="descriptions">TEMPERATURE: {Math.round(detWeather.main.temp/11)} C</p>
-                <p className='descriptions'>WIND: {detWeather.wind.speed} Km/h</p>
+                   <p className="descriptions">Tempature: {Math.round(detWeather.main.temp/11)} C</p>
+                <p className='descriptions'>Wind: {detWeather.wind.speed} Km/h</p>
                   </div>
                   <div className="centerCont">
-                <p className='descriptions'>PRESSURE: {detWeather.main.pressure} p</p>
+                <p className='descriptions'>Pressure: {detWeather.main.pressure} p</p>
 
-                <p className='descriptions'>HUMIDITY: {detWeather.main.humidity} Km/h</p>               
+                <p className='descriptions'>Humidity: {detWeather.main.humidity} Km/h</p>               
                    </div>
                    <div className="rightCont">
-              <p className='descriptions'>WIND DEGREE: {detWeather.wind.deg} C</p>
-                <p className='descriptions'>COORDINATION: {Math.round(detWeather.coord.lat)}, {Math.round(detWeather.coord.lon)}</p>
+              <p className='descriptions'>Wind degree: {detWeather.wind.deg} C</p>
+                <p className='descriptions'>Coordination: {Math.round(detWeather.coord.lat)}, {Math.round(detWeather.coord.lon)}</p>
 
               </div>
               </div> 

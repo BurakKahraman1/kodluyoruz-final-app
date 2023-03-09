@@ -11,7 +11,7 @@ function App() {
   return (
     <LoggedProvider>
       <BrowserRouter>
-        <div>
+        <div style={{fontFamily:'serif', fontSize:18}}>
           <Header/>
           <Routes>
             <Route path="/" element={<Login />} />
