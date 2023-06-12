@@ -1,4 +1,4 @@
-import { useNavigate, Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { useContext } from "react"
 import LoggedContext from "../context/loggedContext"
 import '../scss/login.scss'
@@ -27,7 +27,6 @@ const Register=()=>{
                 alert('mail and password should be filled')
             }
         }}>Register</button>
- <Link to="/"><p className="font">Don't you have an account?</p></Link>
     </div>
     )
 }
